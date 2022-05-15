@@ -19,6 +19,8 @@ export const Form = styled.form`
   font-family: 'Roboto 300';
   font-size: 1.1rem;
 
+  align-items: center;
+
   justify-content: center;
   width: 35%;
   color: #009900;

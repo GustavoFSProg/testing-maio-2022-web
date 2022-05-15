@@ -18,6 +18,7 @@ export const Form = styled.form`
   flex-direction: column;
   font-family: 'Roboto 300';
   font-size: 1.1rem;
+  margin-bottom: 50px;
 
   align-items: center;
 

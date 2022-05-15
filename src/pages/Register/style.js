@@ -7,6 +7,10 @@ export const Container = styled.div`
 
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 800px) {
+    margin: 0px;
+  }
 `
 
 export const Form = styled.form`
@@ -20,7 +24,8 @@ export const Form = styled.form`
   color: #009900;
 
   @media screen and (max-width: 800px) {
-    width: 90%;
+    width: 85%;
+    font-size: 1rem;
   }
 `
 
@@ -34,6 +39,10 @@ export const Input = styled.input`
   padding-left: 17px;
   font-size: 1.1rem;
   color: #008000;
+
+  @media screen and (max-width: 800px) {
+    font-size: 0.9rem;
+  }
 `
 
 export const Button = styled.button`
@@ -58,7 +67,7 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 600px) {
-    width: 95vw;
+    width: 90vw;
   }
 `
 export const Span = styled.span`

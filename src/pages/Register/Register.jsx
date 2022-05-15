@@ -27,6 +27,8 @@ function Register() {
   }
   return (
     <Container>
+      <br />
+      <br />
       <Link to="/">Home</Link>
       <br />
       <br />

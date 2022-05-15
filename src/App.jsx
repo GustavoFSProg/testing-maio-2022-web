@@ -20,6 +20,8 @@ function App() {
 
   return (
     <Container>
+      <br />
+      <br />
       <Link to="/reg">Cadastro</Link>
       <h1>Lista de Usuarios</h1>
       <ContainerInside>

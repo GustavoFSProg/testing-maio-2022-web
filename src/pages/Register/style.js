@@ -44,7 +44,7 @@ export const Input = styled.input`
   color: #008000;
 
   @media screen and (max-width: 800px) {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 `
 
